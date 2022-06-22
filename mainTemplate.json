@@ -31,7 +31,13 @@
         "templateLink": {
           "uri":"https://raw.githubusercontent.com/RaviTella/ARM/main/childTemplate.json",
           "contentVersion":"1.0.0.0"
+        },
+      "parameters": {
+        "projectName": {
+          "value": "[parameters('projectName')]"
         }
+      }
+
       }
     }
   ],
