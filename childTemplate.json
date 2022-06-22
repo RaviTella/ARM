@@ -4,5 +4,10 @@
     "parameters": {},
     "variables": {},
     "resources": [],
-    "outputs": {}
+    "outputs": {
+        "testVariable": {
+            "type": "string",
+            "value": "[variables('vNetName')]"
+        }
+    }
 }
