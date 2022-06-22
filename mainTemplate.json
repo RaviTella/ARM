@@ -18,7 +18,9 @@
         }
   },
   "variables": {
-      "vNetName": "[concat(parameters('projectName'), '-vnet')]},
+   "vNetName": "[concat(parameters('projectName'), '-vnet')]"
+  },
+      
   "resources": [
     {
       "type": "Microsoft.Resources/deployments",
